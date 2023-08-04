@@ -1,0 +1,88 @@
+.cabecalho{
+
+
+    background-color: var(--cor-cabecalho);
+
+
+    padding: 1em;
+
+
+}
+
+
+
+
+
+.container {
+
+
+    display: flex;
+
+
+    align-items: center;
+
+
+}
+
+
+
+
+
+.container__imagem, .container__frase {
+
+
+    padding: 1em;
+
+
+}
+
+
+
+
+
+.container__titulo, .container__frase{
+
+
+    display: none;
+
+
+}
+.container__titulo, .container__titulo--negrito {
+
+
+    font-size: 30px;
+
+
+}
+
+
+
+
+
+.container__titulo {
+
+
+    font-weight: 400;
+
+
+    display: block;
+
+
+}
+
+
+.container__frase{
+
+
+    padding-left: 5em;
+
+
+    font-size: 20px;
+
+
+    display: block;
+
+
+}
+
+
